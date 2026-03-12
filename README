@@ -1,1 +1,28 @@
 Various tooling for Xbox Development
+
+amd_cpu_enum.c:
+Prints the following:
+Vendor
+CPU
+Cores
+Threads
+CPU Feature Flags
+AMD Cache Leaves
+Cache Sharing Topology
+Raw Leaves
+Hypervisor max leaf
+Hypervisor vendor
+HV interface
+HV features EAX
+HV features EBX
+Max standard leaf
+Max extended leaf
+Cache Sizes
+Extended topology info
+
+nt_krnl_xhook.c:
+Prints kernel modules
+Attempts to load known xbox devices one by one
+
+tsc_enum.c:
+Prints approx freq for each core
