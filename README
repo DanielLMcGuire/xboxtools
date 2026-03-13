@@ -26,3 +26,9 @@ Attempts to load known xbox devices one by one
 
 tsc_enum.c:
 Prints approx freq for each core
+
+
+wdp_rest.py:
+A wrapper for the rest api
+
+Use python wdp_rest.py --help for more info
