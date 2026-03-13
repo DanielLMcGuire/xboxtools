@@ -1,7 +1,7 @@
 Various tooling for Xbox One / Series Development
 
-amd_cpu_enum.c:
-Prints the following:
+cpu_enum.c:
+Prints the following: (may differ on intel)
 Vendor
 CPU
 Cores
