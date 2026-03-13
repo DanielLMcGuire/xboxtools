@@ -21,8 +21,7 @@ Cache Sizes
 Extended topology info
 
 nt_krnl_xhook.c:
-Prints kernel modules
-Attempts to load known xbox devices one by one
+Prints loaded kernel modules
 
 tsc_enum.c:
 Prints approx freq for each core
