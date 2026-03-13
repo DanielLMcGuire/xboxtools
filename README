@@ -1,4 +1,4 @@
-Various tooling for Xbox Development
+Various tooling for Xbox One / Series Development
 
 amd_cpu_enum.c:
 Prints the following:
@@ -25,7 +25,6 @@ Prints loaded kernel modules
 
 tsc_enum.c:
 Prints approx freq for each core
-
 
 wdp_rest.py:
 A wrapper for the rest api
