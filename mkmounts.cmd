@@ -27,4 +27,3 @@ for /f "tokens=3 delims=\" %%A in ('reg query "HKEY_LOCAL_MACHINE\SYSTEM\Mounted
 )
 
 echo Done.
-pause
