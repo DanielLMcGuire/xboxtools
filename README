@@ -1,4 +1,4 @@
-Various tooling for Xbox One / Series Development
+Various tooling for Windows
 
 cpu_enum.c:
 Prints the following: (may differ on intel)
@@ -21,7 +21,7 @@ Cache Sizes
 Extended topology info
 
 nt_krnl_xhook.c:
-Prints loaded kernel modules
+Prints loaded kernel modules (and attempts connecting to xbox specific pipes)
 
 tsc_enum.c:
 Prints approx freq for each core
@@ -30,3 +30,7 @@ wdp_rest.py:
 A wrapper for the rest api
 
 Use python wdp_rest.py --help for more info
+
+mklink.cmd:
+
+Iterates through each mapped dosdevice (drive letters) and makes a junction to D:\DevelopmentFiles
